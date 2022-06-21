@@ -1,0 +1,9 @@
+[Unit]
+Description=Huizenzoeker2 service
+After=multi-user.target
+
+[Service]
+ExecStart=/home/mark/scripts/starthuizenzoeker.sh
+
+[Install]
+WantedBy=multi-user.target
