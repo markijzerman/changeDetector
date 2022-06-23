@@ -8,3 +8,7 @@ To configure as root, do sudo so and THEN telegram-send --configure.
 
 ## systemd
 systemd service needs to be in /etc/systemd/system and needs to be 'installed' like normally like https://roboticsbackend.com/make-a-raspberry-pi-3-program-start-on-boot/
+
+## new huizenzoeker2.py
+needs bs4 & python3-lxml & pip install html5lib
+install as sudo su, just like telegram send
